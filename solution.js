@@ -30,7 +30,7 @@ function insertionSortDesc(arr) {
 }
 console.log(insertionSortDesc([5, 2, 9, 1, 5, 6]));
 
-// Insert at correct position in Ascending Order;
+// Insert at correct position in already Ascending Order sorted array; 
 function insertionAtCorrectPlace(arr, value) {
     arr.push(value);
   let j = arr.length - 2;
@@ -42,3 +42,4 @@ function insertionAtCorrectPlace(arr, value) {
   return arr;
 }
 console.log(insertionAtCorrectPlace([1, 3, 5, 6], 4));
+
